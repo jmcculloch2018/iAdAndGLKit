@@ -1,0 +1,6 @@
+2015-08-04 09:52:51.413 iAdAndGLKit[543:164919] -[UIView setContext:]: unrecognized selector sent to instance 0x17eb55a0
+2015-08-04 09:52:51.418 iAdAndGLKit[543:164919] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[UIView setContext:]: unrecognized selector sent to instance 0x17eb55a0'
+*** First throw call stack:
+(0x2762179b 0x38e96e0f 0x27626f95 0x27624bc5 0x275564e8 0x7b15b 0x2b6e5c59 0x2b6e5955 0x2b6ec19d 0x2b6e979d 0x2b75d415 0x2b97a911 0x2b97e14f 0x2b98fe19 0x2b97bc0b 0x2f93819f 0x2f938481 0x275e557b 0x275e5169 0x275e34ab 0x27534b01 0x275348ed 0x2b751d2d 0x2b74c649 0x7b57d 0x395fe9cf)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+(lldb)
