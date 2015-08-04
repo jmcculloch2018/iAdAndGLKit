@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		204563AF1B70633700FAED9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 204563AE1B70633700FAED9B /* main.m */; };
 		204563B21B70633700FAED9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 204563B11B70633700FAED9B /* AppDelegate.m */; };
-		204563B51B70633700FAED9B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204563B41B70633700FAED9B /* MasterViewController.m */; };
-		204563B81B70633700FAED9B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204563B71B70633700FAED9B /* DetailViewController.m */; };
 		204563BB1B70633700FAED9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204563B91B70633700FAED9B /* Main.storyboard */; };
 		204563BD1B70633700FAED9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204563BC1B70633700FAED9B /* Assets.xcassets */; };
 		204563C01B70633700FAED9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204563BE1B70633700FAED9B /* LaunchScreen.storyboard */; };
 		204563CB1B70633700FAED9B /* iAdAndGLKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 204563CA1B70633700FAED9B /* iAdAndGLKitTests.m */; };
 		204563D61B70633700FAED9B /* iAdAndGLKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 204563D51B70633700FAED9B /* iAdAndGLKitUITests.m */; };
+		204563E41B70640D00FAED9B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204563E31B70640D00FAED9B /* QuartzCore.framework */; };
+		204563E61B70641400FAED9B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204563E51B70641400FAED9B /* iAd.framework */; };
+		204563E81B70641E00FAED9B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204563E71B70641E00FAED9B /* OpenGLES.framework */; };
+		204563EA1B70642A00FAED9B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204563E91B70642A00FAED9B /* GLKit.framework */; };
+		204563EE1B70650400FAED9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204563ED1B70650400FAED9B /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +43,6 @@
 		204563AE1B70633700FAED9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		204563B01B70633700FAED9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		204563B11B70633700FAED9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		204563B31B70633700FAED9B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		204563B41B70633700FAED9B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		204563B61B70633700FAED9B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		204563B71B70633700FAED9B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		204563BA1B70633700FAED9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		204563BC1B70633700FAED9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204563BF1B70633700FAED9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +53,12 @@
 		204563D11B70633700FAED9B /* iAdAndGLKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iAdAndGLKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204563D51B70633700FAED9B /* iAdAndGLKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iAdAndGLKitUITests.m; sourceTree = "<group>"; };
 		204563D71B70633700FAED9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204563E31B70640D00FAED9B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		204563E51B70641400FAED9B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		204563E71B70641E00FAED9B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		204563E91B70642A00FAED9B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		204563EC1B70650400FAED9B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		204563ED1B70650400FAED9B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204563EA1B70642A00FAED9B /* GLKit.framework in Frameworks */,
+				204563E81B70641E00FAED9B /* OpenGLES.framework in Frameworks */,
+				204563E61B70641400FAED9B /* iAd.framework in Frameworks */,
+				204563E41B70640D00FAED9B /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +93,10 @@
 		204563A11B70633700FAED9B = {
 			isa = PBXGroup;
 			children = (
+				204563E91B70642A00FAED9B /* GLKit.framework */,
+				204563E71B70641E00FAED9B /* OpenGLES.framework */,
+				204563E51B70641400FAED9B /* iAd.framework */,
+				204563E31B70640D00FAED9B /* QuartzCore.framework */,
 				204563AC1B70633700FAED9B /* iAdAndGLKit */,
 				204563C91B70633700FAED9B /* iAdAndGLKitTests */,
 				204563D41B70633700FAED9B /* iAdAndGLKitUITests */,
@@ -104,12 +117,10 @@
 		204563AC1B70633700FAED9B /* iAdAndGLKit */ = {
 			isa = PBXGroup;
 			children = (
+				204563EC1B70650400FAED9B /* ViewController.h */,
+				204563ED1B70650400FAED9B /* ViewController.m */,
 				204563B01B70633700FAED9B /* AppDelegate.h */,
 				204563B11B70633700FAED9B /* AppDelegate.m */,
-				204563B31B70633700FAED9B /* MasterViewController.h */,
-				204563B41B70633700FAED9B /* MasterViewController.m */,
-				204563B61B70633700FAED9B /* DetailViewController.h */,
-				204563B71B70633700FAED9B /* DetailViewController.m */,
 				204563B91B70633700FAED9B /* Main.storyboard */,
 				204563BC1B70633700FAED9B /* Assets.xcassets */,
 				204563BE1B70633700FAED9B /* LaunchScreen.storyboard */,
@@ -275,10 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204563EE1B70650400FAED9B /* ViewController.m in Sources */,
 				204563B21B70633700FAED9B /* AppDelegate.m in Sources */,
-				204563B51B70633700FAED9B /* MasterViewController.m in Sources */,
 				204563AF1B70633700FAED9B /* main.m in Sources */,
-				204563B81B70633700FAED9B /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iAdAndGLKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jamsabot.iAdAndGLKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iAdAndGLKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jamsabot.iAdAndGLKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
