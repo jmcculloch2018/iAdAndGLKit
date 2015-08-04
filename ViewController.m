@@ -25,7 +25,7 @@
         NSLog(@"Failed to create ES context");
     }
     
-    GLKView *view = (GLKView *)self.view;
+    GLKView *view = (GLKView *)self.originalContentView;
     view.context = self.context;
     [EAGLContext setCurrentContext:self.context];
 }
