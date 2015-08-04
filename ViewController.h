@@ -10,7 +10,7 @@
 #import <GLKit/GLKit.h>
 #import <iAd/iAd.h>
 
-@interface ViewController : GLKViewController <ADBannerViewDelegate>
+@interface ViewController : GLKViewController
 
 @property (strong, nonatomic) EAGLContext *context;
 @property (strong, nonatomic) ADBannerView *banner;
